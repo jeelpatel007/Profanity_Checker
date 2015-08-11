@@ -4,7 +4,7 @@ import urllib
 
 def read_text():
 # Replace below location with the location of text file on your machine
-	file_reader = open("C:\Users\Jeel\Desktop\Python\movie_quotes.txt")
+	file_reader = open("C:\Users\Jeel\Desktop\Python\adventure.txt")
 	contents_of_file = file_reader.read()
 	print (contents_of_file)
 	file_reader.close()
